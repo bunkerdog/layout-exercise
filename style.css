@@ -1,0 +1,85 @@
+body{
+    background-color:rgb(104, 209, 241);
+}
+.outer{
+    border: solid thick chartreuse;
+    
+    margin: 50px 50px;
+}
+.upper{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.up2p{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.up2p p{
+    color: black;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.up2p a{
+    margin-top: 22px;
+    color: chartreuse;
+    font-style: normal;
+}
+.textual{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 120px;
+    width: 100%;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.middle h1{
+    font-size: 35px;
+}
+.middle p{
+    font-size: 30px;
+    justify-content:flex-start;
+    
+    overflow: visible;
+    
+
+    
+    
+}
+
+img{
+    width: 350px;
+    padding-top: 100px;
+    
+    display:inline-block;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer p{
+    color: rgb(143, 143, 143);
+}
+footer, a{
+    color: chartreuse;
+    font-size: 25px;
+}
